@@ -1,0 +1,13 @@
+.tags{
+    width: 100%;
+    height: auto;
+    padding: 16px;
+    background: #FFF;
+}
+
+.tags ul{
+    display: flex;
+    list-style: none;
+    gap: 8px;
+}
+

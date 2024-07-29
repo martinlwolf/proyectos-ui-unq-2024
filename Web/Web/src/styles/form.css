@@ -1,0 +1,11 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 348px;
+    height: auto;
+    padding: 24px;
+    gap: 20px;
+    border-radius: 8px;
+    opacity: 0px;
+    box-shadow: 0px 0px 4px 0px #00000040;
+}

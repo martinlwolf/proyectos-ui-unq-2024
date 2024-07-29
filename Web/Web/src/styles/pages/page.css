@@ -1,0 +1,95 @@
+.page-init {
+    width: 100%;
+    height: 100vh;
+}
+
+.page-nav{
+    width: 100%;
+    height: 60px;
+}
+
+.page-body{
+    display: flex;
+    height: calc(100vh - 60px);
+    width: 100%;
+}
+
+.page-sidebar {
+    width: 270px;
+    height: 100vh;
+}
+
+.page-body-right {
+    width: calc(100% - 270px);
+    height: 100%;
+    padding: 16px 32px;
+    overflow-y: auto;
+}
+
+.page-content-init {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    gap: 16px;
+}
+
+.bar-box {
+    display: flex;
+    overflow-y: auto !important; 
+}
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    padding: 4px;
+}
+
+.box-horizontal {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    padding: 4px;
+    overflow-x: auto;
+}
+
+.center-x {
+    align-items: center;
+}
+
+.center-y {
+    justify-content: center;
+    height: 100%;
+}
+
+
+/* Scroll Style */
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #D9D9D9;
+}
+
+::-webkit-scrollbar-thumb {
+background-color: #FE2C55;
+border-radius: 5px;
+}
+
+/* Media Query */
+
+@media (max-width: 1024px) {
+
+    .page-sidebar {
+        width: 80px;
+    }
+
+    .page-body-right{
+        width: calc(100% - 80px);
+    }
+
+}
+

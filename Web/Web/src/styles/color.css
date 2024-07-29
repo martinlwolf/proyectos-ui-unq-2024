@@ -1,0 +1,19 @@
+.c-tiktok {
+    background: var(--white, #FFFFFF);
+    color: #FE2C55;
+    
+}
+
+.c-tiktok-dark {
+    background: var(--primary-500, #FE2C55);
+    color: white;
+}
+
+.c-tiktok-dark:hover {
+    background: var(--primary-500, #FE2C55) !important;
+    color: white !important;
+}
+
+.c-tiktok-post{
+    background: #D9D9D9;
+}

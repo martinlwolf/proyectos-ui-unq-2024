@@ -1,0 +1,172 @@
+.tiktok-btn {
+    width: 100px;
+    min-width: 100px;
+    height: 46px;
+    padding: 0 8px 0 8px;
+    gap: 10px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    line-height: 21.78px;
+}
+
+.round {
+    border-radius: 46px !important;
+    width: 46px !important;
+    min-width: 46px !important;
+    cursor: pointer;
+}
+
+.round-sm {
+  border-radius: 36px !important;
+  width: 36px !important;
+  height: 36px !important;
+  cursor: pointer;
+}
+
+.round-me {
+  border-radius: 48px !important;
+  width: 48px !important;
+  height: 48px !important;
+  cursor: pointer;
+}
+
+
+.dark {
+  background-color: #FE2C55;
+  color: #FFFFFF;
+}
+
+.dark:hover {
+  background-color: #EF2A51;
+}
+
+.light {
+  background-color: #FFFFFF;
+  color: #FE2C55;
+  border: 1px solid #FE2C55;
+}
+
+.light:hover {
+  background-color: #FFEFF2;
+}
+
+.secondary-default {
+  background-color: #F1F1F2;
+  color: #161823;
+}
+
+.secondary-active {
+  background-color: #F1F1F2;
+  color: #FE2C55;
+}
+
+.like {
+  fill: #FE2C55;
+}
+
+.no-like {
+  fill: #000000;
+}
+
+.secondary {
+  background-color: #F1F1F2;
+  color: #161823;
+}
+
+.secondary:hover {
+  background-color: #E7E7E8;
+}
+
+.secondary:active {
+    background-color: #161823;
+    color: #FFFFFF;
+}
+
+.secondary-dark {
+    background-color: #161823;
+    color: #FFFFFF;
+}
+
+.secondary-outline {
+  background-color: #FFFFFF;
+  color: #161823;
+  border: 1px solid #AAAAAE;
+}
+
+.secondary-outline:hover {
+  background-color: #F1F1F2;
+}
+
+.lupa {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+}
+
+.button-login {
+  width: 208px; 
+  height: 46px; 
+}
+
+.btn-sidebar{
+  padding: 10px;
+  display: flex;
+  color:#161823;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+.btn-none {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.button-flex {
+  width: 100% !important; 
+}
+
+.button-lg {
+  width: 50%;
+}
+
+
+
+.frame{
+  display: flex;
+  gap:16px
+}
+
+.btn-comment {
+  box-shadow: 0px 0px 4px 0px #00000040 !important;
+  color:#FE2C55 !important;
+  font-family: Inter;
+  font-size: 16px;
+  height: auto;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-align: left;
+  padding: 24px;
+  gap: 15px;
+}
+
+
+.btn-auto{
+  height: auto !important;
+  width: auto !important;
+  min-width: 0 !important;
+}

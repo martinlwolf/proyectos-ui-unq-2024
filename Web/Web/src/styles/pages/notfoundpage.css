@@ -1,0 +1,27 @@
+.not-found {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.not-found img {
+    width: 244px;
+    height: 244px;
+}
+
+.num-not-found {
+    font-size: 244px;
+}
+
+.text-not-found {
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(22, 24, 35, 0.5);
+}
+
+.more-not-found {
+    font-size: 28px;
+    font-weight: bold;
+}
+

@@ -1,0 +1,37 @@
+.box-modal{
+    width: 411px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0px 0px 4px 0px #00000040;
+    border-radius: 10px;
+}
+
+.box-button{
+    display: flex;
+    justify-content: flex-end;
+    width: 411px;
+    position: absolute;
+    padding: 10px;
+}
+
+.box-msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.box-msg > p {
+    font-size: 20px;
+    color: #FE2C55;
+    font-weight: bold;
+}
+
+.view{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.427);
+}
+
+.no-view{
+    display: none;
+}

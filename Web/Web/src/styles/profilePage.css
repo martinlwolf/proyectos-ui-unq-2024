@@ -1,0 +1,16 @@
+.content{
+    margin: 10px 32px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.posts{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+

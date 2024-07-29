@@ -1,0 +1,44 @@
+.userProfile{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    height: 186px;
+    padding: 8px ;
+    gap: 16px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px ;
+    opacity: 0px;
+}
+
+.userInfo{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+    text-align: center;
+}
+
+.userAccount {
+    
+    height: 48px !important;
+   
+}
+
+.followStats{
+    display: flex;
+    justify-content: flex-start;
+    width: 457px;
+    height: 44px;
+    padding: 11px 6px 11px 6px;
+    gap: 10px;
+    opacity: 0px;
+}
+
+.follow{
+    font-weight: 300; 
+}
+
+.follow .count{
+    font-weight: 700;
+}
